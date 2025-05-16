@@ -1,5 +1,5 @@
 # The Kinsla'ða
-The _Kinsla'ða_ is a genealogical record of the _Do'lita_
+The _Kinsla'ða_ is a genealogical record of The _Do'lita_
 
 ## Kings & Queens
 - Do'ður, God of Death
@@ -141,6 +141,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Each deity has their own system or reasoning for choosing a Mak'ra
 		- Some like to follow certain bloodlines, while others do not
 		- Some deities turn their favoured mortal into a Mak'ra when they reach adulthood, some when the mortal proves themself, and others do so in the mortal’s time of need
+  		- _Some enjoy the __Chaos___
 - Orders of magnitude stronger than a Wizard, but much weaker than actual gods
 - Each Deity has a _Mak'ra_
 - This status grants a mortal significant political power
@@ -148,6 +149,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Those that aren't are even more legendary
 - Being gifted power by multiple deities is extraordinarily rare, but not impossible
 	- There have only been several in history
-	- Once, and only once, there was a _Mak'ra_ of Do'ður, Li'ðin and Té'mur, prior to [the Val'da](istaga.md#the-furða)
+	- Once, and only once, there was a _Mak'ra_ of Do'ður, Li'ðin and Té'mur, prior to [The Val'da](istaga.md#the-furða)
+ 	- This Mak'ra was _The First_
 - When a _Mak'ra_ dies, a new _Mak'ra_ is chosen
-- A _Mak'ra_ can lose their status if they do something that angers their patron, without a reasonable exlpanation
+- A _Mak'ra_ can lose their status if they do something that angers their patron, without a reasonable explanation
