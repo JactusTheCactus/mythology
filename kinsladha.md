@@ -126,8 +126,8 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 ## Barons & Baronesses
 - These Deities govern specific areas; islands, landmarks, lakes, oceans, etc.
 ## The Mak'ra
-`Feminine: The Mak'rin`\
-`Masculine: The Mak'rur`
+	Feminine: 	The Mak'rin
+	Masculine: 	The Mak'rur
 - _Not_ Deities
 - Favoured mortals of a deity([King, Queen](#kings--queens), [Duke, Duchess](#the-urla), [Prince, Princess](#princes--princesses), [Marquis, Marchioness](#marquises--marchionesses)), giving them a fraction of their power
 	- Each deity has their own system or reasoning for choosing a Mak'ra
