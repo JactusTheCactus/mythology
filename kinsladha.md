@@ -1,5 +1,6 @@
 # The Kinsla'ða
 The _Kinsla'ða_ is a genealogical record of the _Do'lita_
+
 ## Kings & Queens
 - Do'ður, God of Death
 	- Ex-Husband of Li'ðin
@@ -8,6 +9,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Sister of Té'mur
 - Té'mur, God of Time
 	- Brother of Li'ðin
+
 ## The Ur'la
 - Equal in rank to [Princes & Princesses](#princes--princesses)
 - Kwe'lin, Weaver of Fate
@@ -16,6 +18,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Daughter of Té'mur
 - Ne'tur, Trimmer of Fate
 	- Son of Té'mur
+
 ## Princes & Princesses
 - Equal in rank to the [Ur'la](#the-urla)
 - E'ldur, God of Energy
@@ -28,6 +31,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Son of Liðin
 - Va'din, Goddess of Water
 	- Daughter of Li'ðin
+
 ## Marquises & Marchionesses
 - Fye'lur, God of Mountains
 	- Son of Yó'dur
@@ -47,6 +51,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	- Daughter of Va'din
 - Fur'lin, Goddess of Travel
 	- Daughter of Va'din
+
 ## Counts & Countesses
 - Fel'kilur, God of Volcanoes
 	- Son of Fye'lur
@@ -72,6 +77,7 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	 - Daughter of Fri'ðin
 - Ko'gur, God of Art
 	 - Son of Fri'ðin
+
 ## Viscounts & Viscountesses
 - Ra'vin, Goddess of Lava
 	- Daughter of Fel'kilur
@@ -123,8 +129,10 @@ The _Kinsla'ða_ is a genealogical record of the _Do'lita_
 	 - Daughter of Ko'gur
 - Mó'lin, Goddess of Paint
 	 - Daughter of Ko'gur
+
 ## Barons & Baronesses
 - These Deities govern specific areas; islands, landmarks, lakes, oceans, etc.
+
 ## The Mak'ra
 	Feminine: 	The Mak'rin
 	Masculine: 	The Mak'rur
