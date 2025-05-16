@@ -1,11 +1,8 @@
-# ***The Me'na***
+# The Me'na
+the _Me'na_ is a record of the culture of the _Fo'kra_; the people that worship the _Do'lita_.
 
-## *the Me'na* is a record of the culture of *the Fo'kra*, the people that worship *the Do'lita*.
-
-No one worships the entirety of *the Do'lita*, but rather the Deities important to their life.
-
-# Professions
-
+No one worships the entirety of the _Do'lita_, but rather the Deities important to their life.
+## Professions
 1. Cooks  
    1. Worshippers of Braé'nur  
 2. Hunters  
@@ -39,7 +36,5 @@ No one worships the entirety of *the Do'lita*, but rather the Deities important 
    2. Medic  
       1. Worshippers of Skur'ðin, Me'cur and Fri'ðin  
       2. Some medics are also healing mages
-
-# The Do'ða
-
-*The Do'ða* are a doomsday cult that worships Do'ður, believing their faith will spare them from *the Fur'ða*.
+## The Do'ða
+The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from the _Fur'ða_.
