@@ -1,6 +1,6 @@
 # The Me'na
-the _Me'na_ is a record of the culture of the _Fo'kra_; the people that worship the _Do'lita_.
-No one worships the entirety of the _Do'lita_, but rather the Deities important to their life.
+The _Me'na_ is a record of the culture of The _Fo'kra_; the people that worship The _Do'lita_.
+No one worships the entirety of The _Do'lita_, but rather the Deities important to their life.
 
 ## Professions
 - Cooks
@@ -23,7 +23,7 @@ No one worships the entirety of the _Do'lita_, but rather the Deities important 
 	- `Kuf'nur`
 	- `Nok'vur`
 - Wizard
-	- Any mortal can become a wizard, but some people are more gifted than others
+	- Any mortal can become a Wizard, but some people are more gifted than others
 	- There are post-secondary schools, where one can become a skilled wizard
 	- Imbued by `Ga'ldin`, with a fraction of the power of another Deity; i.e:
 		- Pyrokinetics; `Bra'ður`
@@ -58,4 +58,4 @@ No one worships the entirety of the _Do'lita_, but rather the Deities important 
 			- `Lak'bin`
 
 ## The Do'ða
-The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from the _Fur'ða_.
+The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from The _Fur'ða_.
