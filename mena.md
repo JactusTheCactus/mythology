@@ -6,22 +6,22 @@ No one worships the entirety of The _Do'lita_, but rather the Deities important 
 - Cooks
 	- `Braé'nur`
 - Hunters
-	- `Dyur`
-	- `Stref'nur`
-	- `Nok'vur`
+	- `Dyu'r`
+	- `Stre'fnur`
+	- `No'kvur`
 - Inventors
-	- `Op'fin`
-	- `Greén'dur`
-	- `Skop'kin`
+	- `O'pfin`
+	- `Grá'ndur`
+	- `Sko'pkin`
 - Scientists
 	- `Efki'min`
-	- `Gól'gemin`
-	- `Sér'ilur`
-	- `Up'goðin`
-	- `Greén'dur`
+	- `Gó'lgemin`
+	- `Sé'rilur`
+	- `Upgo'ðin`
+	- `Grá'ndur`
 - Smiths
-	- `Kuf'nur`
-	- `Nok'vur`
+	- `Ku'fnur`
+	- `No'kvur`
 - Wizard
 	- Any mortal can become a Wizard, but some people are more gifted than others
 	- There are post-secondary schools, where one can become a skilled wizard
@@ -35,7 +35,7 @@ No one worships the entirety of The _Do'lita_, but rather the Deities important 
 - Military
 	- All combatants worship `Stré'ður`
 		- Archer & Crossbowman
-			- `Nok'vur`
+			- `No'kvur`
 		- Mage
 			- A Wizard fighting in the military; specializing in combat-related magic
 			- the deity of their chosen magic
@@ -47,15 +47,15 @@ No one worships the entirety of The _Do'lita_, but rather the Deities important 
 				- etc.
 			- `Ga'ldin`
 		- Rifleman
-			- `Nok'vur`
+			- `No'kvur`
 			- `Bi'sur`
 		- Swordsman
 	- Medic
-		- `Skur'ðin`
+		- `Sku'rðin`
 		- `Me'cur`
 		- `Fri'ðin`
 		- Some medics are also healing mages
-			- `Lak'bin`
+			- `La'kbin`
 
 ## The Do'ða
-The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from The _Fur'ða_.
+The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from The [_Fu'rða_](istaga.md#the-furða).
