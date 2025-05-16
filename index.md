@@ -5,7 +5,7 @@ The Do'lita
 | [The Fristi'la](istaga.md#the-fristila)		| [Kings & Queens](kinsladha.md#kings--queens)							| [Professions](mena.md#professions)	|
 | [The Va'lda](istaga.md#the-valda)				| [The U'rla](kinsladha.md#the-urla)									| [The Do'ða](mena.md#the-doða)			|
 | [The Mi'dva](istaga.md#the-midva)				| [Princes & Princesses](kinsladha.md#princes--princesses)				| 										|
-| [Fu'rða](istaga.md#the-furða)					| [Marquises & Marchionesses](kinsladha.md#marquises--marchionesses)	| 										|
+| [The Fu'rða](istaga.md#the-furða)					| [Marquises & Marchionesses](kinsladha.md#marquises--marchionesses)	| 										|
 | 												| [Counts & Countesses](kinsladha.md#counts--countesses)				| 										|
 | 												| [Viscounts & Viscountesses](kinsladha.md#viscounts--viscountesses)	| 										|
 | 												| [Barons & Baronesses](kinsladha.md#barons--baronesses)				| 										|
@@ -47,7 +47,7 @@ kinsladha.md#the-makra
 		<td><a href="kinsladha.md#"></a></td>
 	</tr>
 	<tr>
-		<td><a href="istaga.md#the-furða">Fu'rða</a></td>
+		<td><a href="istaga.md#the-furða">The Fu'rða</a></td>
 		<td><a href="kinsladha.md#"></a></td>
 	</tr>
 	<tr>
