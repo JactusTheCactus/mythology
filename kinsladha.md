@@ -149,7 +149,7 @@ The _Kinsla'ða_ is a genealogical record of The _Do'lita_
 	- Those that aren't are even more legendary
 - Being gifted power by multiple deities is extraordinarily rare, but not impossible
 	- There have only been several in history
-	- Once, and only once, there was a _Ma'kra_ of Do'ður, Li'ðin and Té'mur, prior to [The Val'da](istaga.md#the-furða)
+	- Once, and only once, there was a _Ma'kra_ of Do'ður, Li'ðin and Té'mur, prior to [The Val'da](istaga.html#the-furða)
  	- This Ma'kra was _The First_
 - When a _Ma'kra_ dies, a new _Ma'kra_ is chosen
 - A _Ma'kra_ can lose their status if they do something that angers their patron, without a reasonable explanation

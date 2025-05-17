@@ -58,4 +58,4 @@ No one worships the entirety of The _Do'lita_, but rather the Deities important 
 			- `La'kbin`
 
 ## The Do'ða
-The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from The [_Fu'rða_](istaga.md#the-furða).
+The _Do'ða_ are a doomsday cult that worships Do'ður, believing their faith will spare them from The [_Fu'rða_](istaga.html#the-furða).

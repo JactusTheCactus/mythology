@@ -2,7 +2,7 @@
 The _Ista'ga_ is a historical record of the _Do'lita_
 
 ## The Fristi'la
-- Té'mur and the fates reside in Ha'ðrú, the uppermost plane, along with [The U'rla](kinsladha.md#the-urla)
+- Té'mur and the fates reside in Ha'ðrú, the uppermost plane, along with [The U'rla](kinsladha.html#the-urla)
 - Do'ður and Li'ðin found allied nations, with the princes and princesses forming provinces within their parents' nations
    - Do'ður founds Do'ðén
    - Li'ðin founds Li'ðén
