@@ -136,6 +136,7 @@ The _Kinsla'ða_ is a genealogical record of The _Do'lita_
 ## The Mak'ra
 	Feminine: 	The Ma'krin
 	Masculine: 	The Ma'krur
+
 - _Not_ Deities
 - Favoured mortals of a deity([King, Queen](#kings--queens), [Duke, Duchess](#the-urla), [Prince, Princess](#princes--princesses), [Marquis, Marchioness](#marquises--marchionesses)), giving them a fraction of their power
 	- Each deity has their own system or reasoning for choosing a Ma'kra
