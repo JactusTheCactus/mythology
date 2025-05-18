@@ -1,3 +1,22 @@
 body {
     font: 20px Verdana;
+    margin: 2em 3em;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border-width: 0.25em;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
 }
