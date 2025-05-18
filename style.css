@@ -1,6 +1,7 @@
 body {
     font: 20px Verdana;
     margin: 2em 3em;
+    background-color: #fff;
 }
 
 table {
@@ -16,7 +17,7 @@ table,
 th,
 td {
     border-width: 0.25em;
-    border-color: black;
+    border-color: #000;
     border-style: solid;
     border-collapse: collapse;
 }
