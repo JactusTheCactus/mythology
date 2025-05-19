@@ -8,16 +8,25 @@ table {
     width: 100%;
 }
 
-th,
-td {
+table>* {
     text-align: center;
+    padding: 0.5em;
 }
 
 table,
 th,
 td {
     border-width: 0.25em;
-    border-color: #000;
     border-style: solid;
     border-collapse: collapse;
+    border-color: #000;
+}
+
+table a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #eee;
+    text-decoration: underline;
 }
