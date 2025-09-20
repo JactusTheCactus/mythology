@@ -1,0 +1,32 @@
+body {
+	font: 20px Verdana;
+	margin: 2em 3em;
+	background-color: #fff;
+
+	table {
+		width: 100%;
+
+		>* {
+			text-align: center;
+			padding: 0.5em;
+		}
+
+		a {
+			text-decoration: none;
+
+			&:hover {
+				background-color: #eee;
+				text-decoration: underline;
+			}
+		}
+
+		&,
+		th,
+		td {
+			border-width: 0.25em;
+			border-style: solid;
+			border-collapse: collapse;
+			border-color: #000;
+		}
+	}
+}
