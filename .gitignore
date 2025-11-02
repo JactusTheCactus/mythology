@@ -1,5 +1,5 @@
 *.map
 .sass-cache
 node_modules
-# page/*.pug
-# !page/_*.pug
+page/*.pug
+!page/_*.pug
