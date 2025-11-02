@@ -1,32 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-	font: 20px Verdana;
-	margin: 2em 3em;
-	background-color: #fff;
-
+	font:
+		20pt
+		"Noto Sans";
+	margin:
+		2em
+		3em;
+	background-color:
+		#fff;
 	table {
-		width: 100%;
-
+		width:
+			100%;
 		>* {
-			text-align: center;
-			padding: 0.5em;
+			text-align:
+				center;
+			padding:
+				calc(1em / 2)
 		}
-
 		a {
-			text-decoration: none;
-
+			text-decoration:
+				none;
 			&:hover {
-				background-color: #eee;
-				text-decoration: underline;
+				background-color:
+					#eee;
+				text-decoration:
+					underline
 			}
 		}
-
 		&,
 		th,
 		td {
-			border-width: 0.25em;
-			border-style: solid;
-			border-collapse: collapse;
-			border-color: #000;
+			border-width:
+				calc(1em / 4);
+			border-style:
+				solid;
+			border-collapse:
+				collapse;
+			border-color:
+				#000
 		}
 	}
 }
