@@ -1,23 +1,24 @@
 {
-  "name": "mythology",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JactusTheCactus/mythology.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JactusTheCactus/mythology/issues"
-  },
-  "homepage": "https://github.com/JactusTheCactus/mythology#readme",
-  "dependencies": {
-    "sass": "^1.93.0"
-  }
+	"name": "mythology",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JactusTheCactus/mythology.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JactusTheCactus/mythology/issues"
+	},
+	"homepage": "https://github.com/JactusTheCactus/mythology#readme",
+	"dependencies": {
+		"pug": "^3.0.3",
+		"sass": "^1.93.0"
+	}
 }

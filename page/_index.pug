@@ -1,0 +1,57 @@
+doctype html
+html(lang="en-CA")
+	head
+		meta(charset="UTF-8")
+		link(
+			rel="stylesheet"
+			href="style.css"
+		)
+		title The Do#{__}lita
+	body
+		h1 The Do#{__}lita
+		table
+			tr
+				th
+					a(href="istaga.html") The I#{s}ta#{__}ga
+					br
+					i History
+				th
+					a(href="kinsladha.html") The Kin#{s}la#{__}#{d}a
+					br
+					i Genealogy
+				th
+					a(href="mena.html") The Me#{__}na
+					br
+					i Culture
+			tr
+				td: a(href="istaga.html#fristila") The Fri#{s}ti#{__}la
+				td: a(href="kinsladha.html#gen-1") Generation 1
+				td: a(href="mena.html#professions") Professions
+			tr
+				td: a(href="istaga.html#valda") The Va#{__}lda
+				td: a(href="kinsladha.html#gen-2a") Generation 2A
+				td: a(href="mena.html#dodha") The Do#{__}#{d}a
+			tr
+				td: a(href="istaga.html#midva") The Mi#{__}dva
+				td: a(href="kinsladha.html#gen-2b") Generation 2B
+				td(rowspan="6")
+			tr
+				td: a(href="istaga.html#furdha") The Fu#{__}r#{d}a
+				td: a(href="kinsladha.html#gen-3") Generation 3
+			tr
+				td(rowspan="4")
+				td: a(href="kinsladha.html#gen-4") Generation 4
+			tr
+				td: a(href="kinsladha.html#gen-5") Generation 5
+			tr
+				td: a(href="kinsladha.html#gen-6") Generation 6
+			tr
+				td: a(href="kinsladha.html#makra") The Ma#{__}kra
+		nav
+			a(href="index.html") Home
+			| #{space}|#{space}
+			a(href="istaga.html") History
+			| #{space}|#{space}
+			a(href="kinsladha.html") Genealogy
+			| #{space}|#{space}
+			a(href="mena.html") Culture
