@@ -4,6 +4,14 @@ body {
   margin: 2em 3em;
   background-color: #fff;
 }
+body table th, body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-style: italic;
+}
 body table {
   width: 100%;
 }

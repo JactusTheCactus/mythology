@@ -6,194 +6,170 @@ html(lang="en-CA")
 			rel="stylesheet"
 			href="style.css"
 		)
-		title The Kin#{s}la#{__}#{d}a
+		title The Kin#{s}la#{__+d}a
 	body
-		h1 The Kin#{s}la#{__}#{d}a
-		p
-			| The#{space}
-			i Kin#{s}la#{__}#{d}a
-			| #{space}is a genealogical record of The#{space}
-			i Do#{__}lita
+		h1 The Kin#{s}la#{__+d}a
+		p The Kin#{s}la#{__+d}a is a genealogical record of The Do#{__}lita
 		div#gen-1
 			h2 Generation 1
 			ul
-				li Do#{__}#{d}ur, God of Death
-					ul: li Ex-Husband of Li#{__}#{d}in
-				li Li#{__}#{d}in, Goddess of Life
+				li #{deity.dodur}, God of Death
+					ul: li Ex-Husband of #{deity.lidin}
+				li #{deity.lidin}, Goddess of Life
 					ul
-						li Ex-Wife of Do#{__}#{d}ur
-						li Sister of T#{i}#{__}mur
-				li T#{i}#{__}mur, God of Time
-					ul: li Brother of Li#{__}#{d}in
+						li Ex-Wife of #{deity.dodur}
+						li Sister of #{deity.timur}
+				li #{deity.timur}, God of Time
+					ul: li Brother of #{deity.lidin}
 		div#gen-2a
 			h2 Generation 2A (The U#{__}rla)
 			ul
-				li Kwe#{__}lin, Weaver of Fate
-					ul: li Daughter of T#{i}#{__}mur
-				li Ha#{__}din, Writer of Fate
-					ul: li Daughter of T#{i}#{__}mur
-				li Ne#{__}tur, Trimmer of Fate
-					ul: li Son of T#{i}#{__}mur
+				li #{deity.kwelin}, Weaver of Fate
+					ul: li Daughter of #{deity.timur}
+				li #{deity.hadin}, Writer of Fate
+					ul: li Daughter of #{deity.timur}
+				li #{deity.netur}, Trimmer of Fate
+					ul: li Son of #{deity.timur}
 		div#gen-2b
 			h2 Generation 2B
 			ul
-				li E#{__}ldur, God of Energy
-					ul: li Son of Li#{__}#{d}in
-				li Y#{o}#{__}dur, God of Earth
-					ul: li Son of Do#{__}#{d}ur
-				li L#{u}#{__}din, Goddess of Air
-					ul: li Daughter of Do#{__}#{d}ur
-				li Bra#{__}#{d}ur, God of Fire
-					ul: li Son of Li#{__}#{d}in
+				li #{deity.eldur}, God of Energy
+					ul: li Son of #{deity.lidin}
+				li #{deity.yodur}, God of Earth
+					ul: li Son of #{deity.dodur}
+				li #{deity.ludin}, Goddess of Air
+					ul: li Daughter of #{deity.dodur}
+				li #{deity.bradur}, God of Fire
+					ul: li Son of #{deity.lidin}
 				li Va#{__}din, Goddess of Water
-					ul: li Daughter of Li#{__}#{d}in
+					ul: li Daughter of #{deity.lidin}
 		div#gen-3
 			h2 Generation 3
 			ul
-				li Fye#{__}lur, God of Mountains
-					ul: li Son of Y#{o}#{__}dur
-				li Ke#{__}nur, God of Canyons & Cliffs
-					ul: li Son of Y#{o}#{__}dur
-				li Pa#{__}tin, Goddess of Plants
-					ul: li Daughter of L#{u}#{__}din
-				li D#{o}#{__}rin, Goddess of Creatures
-					ul: li Daughter of E#{__}ldur
-				li Ga#{__}ldin, Goddess of Magic
-					ul: li Daughter of E#{__}ldur
-				li #{S}tr#{i}#{__}#{d}ur, God of War
-					ul: li Son of Bra#{__}#{d}ur
-				li F#{o}#{__}rmur, God of Protective Warmth
-					ul: li Son of Bra#{__}#{d}ur
-				li Fri#{__}#{d}in, Goddess of Peace
+				li #{deity.fyelur}, God of Mountains
+					ul: li Son of #{deity.yodur}
+				li #{deity.kenur}, God of Canyons & Cliffs
+					ul: li Son of #{deity.yodur}
+				li #{deity.patin}, Goddess of Plants
+					ul: li Daughter of #{deity.ludin}
+				li #{deity.dorin}, Goddess of Creatures
+					ul: li Daughter of #{deity.eldur}
+				li #{deity.galdin}, Goddess of Magic
+					ul: li Daughter of #{deity.eldur}
+				li #{deity.stridur}, God of War
+					ul: li Son of #{deity.bradur}
+				li #{deity.formur}, God of Protective Warmth
+					ul: li Son of #{deity.bradur}
+				li #{deity.fridin}, Goddess of Peace
 					ul: li Daughter of Va#{__}din
-				li Fu#{__}rlin, Goddess of Travel
+				li #{deity.furlin}, Goddess of Travel
 					ul: li Daughter of Va#{__}din
 		div#gen-4
 			h2 Generation 4
 			ul
-				li Fe#{__}lkilur, God of Volcanoes
-					ul: li Son of Fye#{__}lur
-				li H#{e}#{__}lin, Goddess of Caves
-					ul: li Daughter of Fye#{__}lur
-				li G#{o}#{__}lgemin, Goddess of Alchemy
-					ul: li Daughter of Pa#{__}tin
-				li Efki#{__}min, Goddess of Chemistry
-					ul: li Daughter of Pa#{__}tin
-				li #{S}ki#{__}m#{z_}ur, God of Monsters
-					ul: li Son of D#{o}#{__}rin
-				li Dyu#{__}r, God of Animals
-					ul: li Son of D#{o}#{__}rin
-				li O#{__}pfin, Goddess of Invention
-					ul: li Daughter of Ga#{__}ldin
-				li O#{__}nlegur, God of Construction
-					ul: li Son of Ga#{__}ldin
-				li Ek#{s}pre#{__}#{n}ur, God of Explosives
-					ul: li Son of #{S}tr#{i}#{__}#{d}ur
-				li #{S}tre#{__}fnur, God of Strategy
-					ul: li Son of #{S}tr#{i}#{__}#{d}ur
-				li La#{__}kbin, Goddess of Healing
-					ul: li Daughter of Fri#{__}#{d}in
-				li Ko#{__}gur, God of Art
-					ul: li Son of Fri#{__}#{d}in
+				li #{deity.felkilur}, God of Volcanoes
+					ul: li Son of #{deity.fyelur}
+				li #{deity.helin}, Goddess of Caves
+					ul: li Daughter of #{deity.fyelur}
+				li #{deity.golgemin}, Goddess of Alchemy
+					ul: li Daughter of #{deity.patin}
+				li #{deity.efkimin}, Goddess of Chemistry
+					ul: li Daughter of #{deity.patin}
+				li #{deity.skimzur}, God of Monsters
+					ul: li Son of #{deity.dorin}
+				li #{deity.dyur}, God of Animals
+					ul: li Son of #{deity.dorin}
+				li #{deity.opfin}, Goddess of Invention
+					ul: li Daughter of #{deity.galdin}
+				li #{deity.onlegur}, God of Construction
+					ul: li Son of #{deity.galdin}
+				li #{deity.eksprenur}, God of Explosives
+					ul: li Son of #{deity.stridur}
+				li #{deity.strefnur}, God of Strategy
+					ul: li Son of #{deity.stridur}
+				li #{deity.lakbin}, Goddess of Healing
+					ul: li Daughter of #{deity.fridin}
+				li #{deity.kogur}, God of Art
+					ul: li Son of #{deity.fridin}
 		div#gen-5
 			h2 Generation 5
 			ul
-				li Ra#{__}vin, Goddess of Lava
-					ul: li Daughter of Fe#{__}lkilur
-				li Bra#{i}#{__}nur, God of Burning
-					ul: li Son of Fe#{__}lkilur
-				li Fre#{__}kur, God of Fear
-					ul: li Son of H#{e}#{__}lin
-				li Pu#{__}rlin, Goddess of Wealth
-					ul: li Daughter of H#{e}#{__}lin
-				li K#{_u}#{__}fnur, God of Artifacts
-					ul: li Son of G#{o}#{__}lgemin
-				li P#{i}#{__}kin, Goddess of Potions
-					ul: li Daughter of G#{o}#{__}lgemin
-				li #{S}#{i}#{__}rilur, God of Acids
-					ul: li Son of Efki#{__}min
-				li U#{__}pgo#{d}in, Goddess of Discovery
-					ul: li Daughter of Efki#{__}min
-				li Do#{__}lin, Goddess of Air Animals
-					ul: li Daughter of Dyu#{__}r
-				li Y#{o}#{__}rdin, Goddess of Land Animals
-					ul: li Daughter of Dyu#{__}r
-				li #{S_}#{o}#{__}dur, God of Sea Animals
-					ul: li Son of Dyu#{__}r
-				li O#{__}ditur, God of Undead
-					ul: li Son of #{S}ki#{__}m#{z_}ur
-				li P#{u}#{__}kin, Goddess of Demons
-					ul: li Daughter of #{S}ki#{__}m#{z_}ur
-				li Gr#{e}#{__}ndur, God of Intelligence
-					ul: li Son of O#{__}pfin
-				li #{S}ko#{__}pkin, Goddess of Creativity
-					ul: li Daughter of O#{__}pfin
-				li #{S}#{t}i#{__}nur, God of Carpentry
-					ul: li Son of O#{__}nlegur
-				li A#{__}rktin, Goddess of Architecture
-					ul: li Daughter of O#{__}nlegur
-				li Bi#{__}#{s}ur, God of Firearms
-					ul: li Son of Ek#{s}pre#{__}#{n}ur
-				li #{S}pri#{__}#{n}ur, God of Bombs
-					ul: li Son of Ek#{s}pre#{__}#{n}ur
-				li Ka#{__}rtlin, Goddess of Cartography
-					ul: li Daughter of #{S}tre#{__}fnur
-				li No#{__}kvur, God of Precision
-					ul: li Son of #{S}tre#{__}fnur
-				li #{S}ku#{__}r#{d}in, Goddess of Surgery
-					ul: li Daughter of La#{__}kbin
-				li Me#{__}cur, God of Medicine
-					ul: li Son of La#{__}kbin
-				li Ri#{__}#{s}tilin, Goddess of Carving
-					ul: li Daughter of Ko#{__}gur
-				li M#{o}#{__}lin, Goddess of Paint
-					ul: li Daughter of Ko#{__}gur
+				li #{deity.ravin}, Goddess of Lava
+					ul: li Daughter of #{deity.felkilur}
+				li #{deity.brainur}, God of Burning
+					ul: li Son of #{deity.felkilur}
+				li #{deity.frekur}, God of Fear
+					ul: li Son of #{deity.helin}
+				li #{deity.purlin}, Goddess of Wealth
+					ul: li Daughter of #{deity.helin}
+				li #{deity.kufnur}, God of Artifacts
+					ul: li Son of #{deity.golgemin}
+				li #{deity.pikin}, Goddess of Potions
+					ul: li Daughter of #{deity.golgemin}
+				li #{deity.sirilur}, God of Acids
+					ul: li Son of #{deity.efkimin}
+				li #{deity.upgodin}, Goddess of Discovery
+					ul: li Daughter of #{deity.efkimin}
+				li #{deity.dolin}, Goddess of Air Animals
+					ul: li Daughter of #{deity.dyur}
+				li #{deity.yordin}, Goddess of Land Animals
+					ul: li Daughter of #{deity.dyur}
+				li #{deity.sodur}, God of Sea Animals
+					ul: li Son of #{deity.dyur}
+				li #{deity.oditur}, God of Undead
+					ul: li Son of #{deity.skimzur}
+				li #{deity.pukin}, Goddess of Demons
+					ul: li Daughter of #{deity.skimzur}
+				li #{deity.grendur}, God of Intelligence
+					ul: li Son of #{deity.opfin}
+				li #{deity.skopkin}, Goddess of Creativity
+					ul: li Daughter of #{deity.opfin}
+				li #{deity.stinur}, God of Carpentry
+					ul: li Son of #{deity.onlegur}
+				li #{deity.arktin}, Goddess of Architecture
+					ul: li Daughter of #{deity.onlegur}
+				li #{deity.bisur}, God of Firearms
+					ul: li Son of #{deity.eksprenur}
+				li #{deity.sprinur}, God of Bombs
+					ul: li Son of #{deity.eksprenur}
+				li #{deity.kartlin}, Goddess of Cartography
+					ul: li Daughter of #{deity.strefnur}
+				li #{deity.nokvur}, God of Precision
+					ul: li Son of #{deity.strefnur}
+				li #{deity.skurdin}, Goddess of Surgery
+					ul: li Daughter of #{deity.lakbin}
+				li #{deity.mecur}, God of Medicine
+					ul: li Son of #{deity.lakbin}
+				li #{deity.ristilin}, Goddess of Carving
+					ul: li Daughter of #{deity.kogur}
+				li #{deity.molin}, Goddess of Paint
+					ul: li Daughter of #{deity.kogur}
 		div#gen-6
 			h2 Generation 6
 			ul: li These Deities govern specific areas; islands, landmarks, lakes, oceans, etc.
 		div#makra
-			h2 The Mak#{__}ra
+			h2: The Mak#{__}ra
 			ul
-				li
-					i Not
-					| #{space}Deities
+				li: i Not Deities
 				li Favoured mortals of a deity, giving them a fraction of their power
 				li Each deity has their own system or reasoning for choosing a Ma#{__}kra
 					ul
 						li Some like to follow certain bloodlines, while others do not
 						li Some deities turn their favoured mortal into a Ma#{__}kra when they reach adulthood, some when the mortal proves themself, and others do so in the mortal’s time of need
-						li
-							| Some enjoy the#{space}
-							i Chaos
+						li Some enjoy the Chaos
 				li Orders of magnitude stronger than a Wizard, but much weaker than actual gods
-				li
-					| Each Deity has a#{space}
-					i Ma#{__}kra
+				li Each Deity has a Ma#{__}kra
 				li This status grants a mortal significant political power
-				li
-					| Most historical heroes are#{space}
-					i Ma#{__}kra
+				li Most historical heroes are Ma#{__}kra
 				li Those that aren't are even more legendary
 				li Being gifted power by multiple deities is extraordinarily rare, but not impossible
 				li There have only been several in history
 				li
-					| Once, and only once, there was a#{space}
-					i Ma#{__}kra
-					| #{space}of Do#{__}#{d}ur, Li#{__}#{d}in and T#{i}#{__}mur, prior to#{space}
-					a(href="istaga.html#furdha") The Val#{__}da
-				li
-					| This Ma#{__}kra was#{space}
-					i The First
-				li
-					| When a#{space}
-					i Ma#{__}kra
-					| #{space}dies, a new#{space}
-					i Ma#{__}kra
-					| #{space}is chosen
-				li
-					| A#{space}
-					i Ma#{__}kra
-					| #{space}can lose their status if they do something that angers their patron, without a reasonable explanation
+					| Once, and only once, there was a Ma#{__}kra of #{deity.dodur}, #{deity.lidin} and #{deity.timur}, prior to#{space}
+					a(href="istaga.html#furdha"): i The Val#{__}da
+				li This Ma#{__}kra was The First
+				li When a Ma#{__}kra dies, a new Ma#{__}kra is chosen
+				li A Ma#{__}kra can lose their status if they do something that angers their patron, without a reasonable explanation
 		nav
 			a(href="index.html") Home
 			| #{space}|#{space}
