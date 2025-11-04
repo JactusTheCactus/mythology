@@ -25,4 +25,5 @@ $(cat "_head.pug") $(cat "$_PUG")
 $(cat "_foot.pug")
 EOF
 	node -e "console.log(require(\"pug\").renderFile(\"$PUG\").normalize(\"NFD\"))" > $HTML
+	rm $PUG
 done
