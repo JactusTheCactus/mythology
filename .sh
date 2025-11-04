@@ -11,7 +11,7 @@ for _PUG in src/_*.pug; do
 	cat << EOF > "$PUG"
 include _.pug
 include _head.pug
-		| $(head -n 1 "$_PUG")
+			| $(head -n 1 "$_PUG")
 	body
 		h1 $(cat "$_PUG")
 include _foot.pug
