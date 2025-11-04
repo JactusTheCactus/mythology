@@ -8,7 +8,7 @@ for SCSS in src/*.scss; do
 	CSS="${CSS#src/}"
 	CSS="${CSS%.scss}"
 	CSS="dist/$CSS.css"
-	node -e "console.log(require(\"sass\").compile(\""$SCSS"\").css)" > "$CSS"
+	node -e "console.log(require('sass').compile('"$SCSS"').css)" > "$CSS"
 done
 for _PUG in src/_*.pug; do
 	HTML="${_PUG#src/_}"
