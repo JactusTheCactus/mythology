@@ -5,9 +5,10 @@ flag() {
 		[[ -e ".flags/$f" ]] || return 1
 	done
 }
-if flag local; then :; else
+if flag local; then
+	:
+else
 	npm ci
-	alias sass="npx sass"
 fi
 for SCSS in page/*.scss; do
 	CSS="${SCSS#page/}"
