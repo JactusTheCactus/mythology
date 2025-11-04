@@ -15,7 +15,8 @@ for _PUG in src/_*.pug; do
 	cat << EOF > "$PUG"
 include _.pug
 include _head.pug $(head -n 1 "$_PUG")
-$(cat "$_PUG")
+	body
+		h1 $(cat "$_PUG")
 include _foot.pug
 EOF
 	node -e "console.log(require(\"pug\").renderFile(\"$PUG\").normalize(\"NFD\"))" > "$HTML"
