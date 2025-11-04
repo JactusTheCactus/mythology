@@ -11,7 +11,7 @@ done
 for _PUG in src/_*.pug; do
 	HTML="${_PUG#src/_}"
 	HTML="${HTML%.pug}.html"
-	PUG="page/${_PUG#src/_}"
+	PUG="dist/${_PUG#src/_}"
 	cat << EOF > "$PUG"
 include _.pug
 include _head.pug $(head -n 1 "$_PUG")
