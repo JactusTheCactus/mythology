@@ -13,9 +13,9 @@ for _PUG in src/_*.pug; do
 	HTML="${HTML%.pug}.html"
 	PUG="page/${_PUG#src/_}"
 	cat << EOF > "$PUG"
-$(cat "_.pug")
-$(cat "_head.pug") $(cat "$_PUG")
-$(cat "_foot.pug")
+include _.pug
+include _head.pug $(cat "$_PUG")
+include _foot.pug
 EOF
 	node -e "console.log(require(\"pug\").renderFile(\"$PUG\").normalize(\"NFD\"))" > "$HTML"
 	rm "$PUG"
