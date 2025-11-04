@@ -2,9 +2,11 @@
 set -euo pipefail
 flag() {for f in "$@"; do [[ -e ".flags/$f" ]] || return 1; done} if flag local; then :; else npm ci; fi
 for SCSS in src/*.scss; do
-	CSS="${SCSS#src/}"
-	CSS="${CSS%.scss}.css"
-	node -e "console.log(require(\"sass\").compileString(require(\"fs\").readFileSync(\"$SCSS\",\"utf8\")).css)" > "$CSS"
+	CSS="$SCSS"
+	CSS="${CSS#src/}"
+	CSS="${CSS%.scss}"
+	CSS="dist/$CSS.css"
+	node -e "console.log(require(\"sass\").compile("\"$SCSS\"").css)" > "$CSS"
 done
 for _PUG in src/_*.pug; do
 	HTML="${_PUG#src/_}"
