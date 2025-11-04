@@ -4,7 +4,6 @@ flag() {for f in "$@"; do [[ -e ".flags/$f" ]] || return 1; done} if flag local;
 rm -rf dist/*
 mkdir -p dist
 npx sass src:dist --no-source-map
-for SRC in src/*.pug; do
-	DIST="dist/${SRC#src/_}"
-	node -e "console.log(require('pug').renderFile('$DIST').normalize('NFD'))" > "dist/$(basename "${SRC#_}" .pug).html"
+for PUG in src/*.pug; do
+	node -e "console.log(require('pug').renderFile('dist/${PUG#src/_}').normalize('NFD'))" > "dist/$(basename "${PUG#_}" .pug).html"
 done
