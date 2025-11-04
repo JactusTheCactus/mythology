@@ -20,7 +20,8 @@ for _PUG in page/_*.pug; do
 	PUG=page/${_PUG#page/_}
 	cat << EOF > $PUG
 $(cat "_.pug")
-$(cat $_PUG)
+$(cat "$_PUG")
+$(cat "_foot.pug")
 EOF
-	node -e "console.log(require('pug').renderFile('$PUG').normalize('NFD'))" > $HTML
+	node -e "console.log(require(\"pug\").renderFile(\"$PUG\").normalize(\"NFD\"))" > $HTML
 done
