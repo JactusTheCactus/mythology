@@ -10,15 +10,15 @@ if flag local; then
 else
 	npm ci
 fi
-for SCSS in page/*.scss; do
-	CSS="${SCSS#page/}"
+for SCSS in src/*.scss; do
+	CSS="${SCSS#src/}"
 	CSS="${CSS%.scss}.css"
 	node -e "console.log(require(\"sass\").compileString(require(\"fs\").readFileSync(\"$SCSS\",\"utf8\")).css)" > $CSS
 done
-for _PUG in page/_*.pug; do
-	HTML=${_PUG#page/_}
+for _PUG in src/_*.pug; do
+	HTML=${_PUG#src/_}
 	HTML=${HTML%.pug}.html
-	PUG=page/${_PUG#page/_}
+	PUG=page/${_PUG#src/_}
 	cat << EOF > $PUG
 $(cat "_.pug")
 $(cat "_head.pug") $(cat "$_PUG")
