@@ -4,14 +4,7 @@ flag() {for f in "$@"; do [[ -e ".flags/$f" ]] || return 1; done} if flag local;
 rm -rf dist/*
 mkdir -p dist
 npx sass src:dist --no-source-map
-for _PUG in src/_*.pug; do
-	PUG="dist/${_PUG#src/_}"
-	cat << EOF > "$PUG"
-include _head.pug
-			| $(head -n 1 "$_PUG") //- _head ends in an empty <title>; this inputs text into it.
-	body
-		h1 $(cat "$_PUG")
-include _foot.pug
-EOF
-	node -e "console.log(require('pug').renderFile('$PUG').normalize('NFD'))" > "dist/$(basename "${_PUG#_}" .pug).html"
+for SRC in src/*.pug; do
+	DIST="dist/${SRC#src/_}"
+	node -e "console.log(require('pug').renderFile('$DIST').normalize('NFD'))" > "dist/$(basename "${SRC#_}" .pug).html"
 done
