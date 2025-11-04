@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -euo pipefail; flag() {for f in "$@"; do [[ -e ".flags/$f" ]] || return 1; done} if flag local; then :; else npm ci; fi
+set -euo pipefail
+flag() {for f in "$@"; do [[ -e ".flags/$f" ]] || return 1; done} if flag local; then :; else npm ci; fi
 for SCSS in src/*.scss; do
 	CSS="${SCSS#src/}"
 	CSS="${CSS%.scss}.css"
