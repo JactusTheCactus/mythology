@@ -7,7 +7,6 @@ npx sass src:dist --no-source-map
 for _PUG in src/_*.pug; do
 	PUG="dist/${_PUG#src/_}"
 	cat << EOF > "$PUG"
-include _.pug
 include _head.pug
 			| $(head -n 1 "$_PUG")
 	body
