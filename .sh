@@ -8,7 +8,7 @@ for _PUG in src/_*.pug; do
 	PUG="dist/${_PUG#src/_}"
 	cat << EOF > "$PUG"
 include _head.pug
-			| $(head -n 1 "$_PUG")
+			| $(head -n 1 "$_PUG") //- _head ends in an empty <title>; this inputs text into it.
 	body
 		h1 $(cat "$_PUG")
 include _foot.pug
