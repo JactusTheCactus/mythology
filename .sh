@@ -13,7 +13,7 @@ fi
 for SCSS in page/*.scss; do
 	CSS="${SCSS#page/}"
 	CSS="${CSS%.scss}.css"
-	node -e "console.log(require(\"sass\").compileString(\`$(cat "$SCSS")\`).css)" > $CSS
+	node -e "console.log(require(\"sass\").compileString(require(\"fs\").readFileSync(\"$SCSS\",\"utf8\")).css)" > $CSS
 done
 for _PUG in page/_*.pug; do
 	HTML=${_PUG#page/_}
