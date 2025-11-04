@@ -1,7 +1,14 @@
 doctype html
-html
+html(lang="en-CA")
 	head
 		block head
+			include _pre.pug
+				meta(charset="UTF-8")
+					link(
+						rel="stylesheet"
+						href="_.css"
+					)
+					title
 	body
 		block body
 		block foot
