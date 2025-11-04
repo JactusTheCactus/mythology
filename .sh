@@ -21,6 +21,6 @@ include _head.pug $(head -n 1 "$_PUG")
 		h1 $(cat "$_PUG")
 include _foot.pug
 EOF
-	node -e "console.log(require(\"pug\").renderFile(\"$PUG\").normalize(\"NFD\"))" > "$HTML"
+	node -e "console.log(require('pug').renderFile('$PUG').normalize('NFD'))" > "$HTML"
 	rm "$PUG"
 done
