@@ -8,6 +8,8 @@ for SCSS in src/*.scss; do
 	CSS="dist/$CSS.css"
 	node -e "console.log(require(\"sass\").compile(\""$SCSS"\").css)" > "$CSS"
 done
+rm -rf dist/*
+mkdir -p dist
 for _PUG in src/_*.pug; do
 	HTML="${_PUG#src/_}"
 	HTML="${HTML%.pug}.html"
