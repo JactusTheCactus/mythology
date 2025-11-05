@@ -15,7 +15,11 @@ else
 	alias tsc="npx tsc"
 fi
 log() {
-	echo -e "$1" >> build.log
+	if flag local; then
+		echo -e "$1" >> build.log
+	else
+		echo -e "$1"
+	fi
 }
 files() {
 	log "$(find \
