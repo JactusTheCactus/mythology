@@ -15,6 +15,6 @@ mkdir -p dist
 for i in src/*.scss; do
 	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
 done
-for PUG in src/*.pug; do
-	node -e "console.log(require('pug').renderFile('"$PUG"').normalize('NFD'))" > "dist/$(basename "$PUG" .pug).html"
+for i in src/*.pug; do
+	PUG="$i" node pug.js > "dist/$(basename "$i" .pug).html"
 done

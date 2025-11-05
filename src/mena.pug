@@ -1,10 +1,10 @@
 extends ../_.pug
 append head
-	title The Me#{__}na
+	title= mena
 block body
-	h1 The Me#{__}na
-	p The#{space} Me#{__}na is a record of the culture of The Fo#{__}kra; the people that worship The Do#{__}lita.
-	p No one worships the entirety of The Do#{__}lita, but rather the Deities important to their life.
+	h1= mena
+	p #{mena} is a record of the culture of #{fokra}; the people that worship #{dolita}.
+	p No one worships the entirety of #{dolita}, but rather the Deities important to their life.
 	h2#professions Professions
 	ul
 		li
@@ -13,7 +13,7 @@ block body
 		li
 			| Hunters:
 			ul
-				li= deity.dyur
+				li= deity.djur
 				li= deity.strefnur
 				li= deity.nokvur
 		li
@@ -45,7 +45,7 @@ block body
 					ul
 						li Pyrokinetics; #{deity.bradur}
 						li Hydrokinetics; #{deity.vadin}
-						li Geokinetics; #{deity.yodur}
+						li Geokinetics; #{deity.jodur}
 						li Anemokinetics; #{deity.ludin}
 						li Electrokinetics; #{deity.eldur}
 		li
@@ -77,8 +77,8 @@ block body
 						li
 							| Some medics are healing mages
 							ul: li= deity.lakbin
-	h2#doda The Do#{__}#{d}a
+	h2#doda= doda
 	p
-		| The Do#{__}#{d}a are a doomsday cult that worships #{deity.dodur}, believing their faith will spare them from The#{space}
-		a(href="istaga.html#furda") Fu#{__}r#{d}a
+		| #{doda} are a doomsday cult that worships #{deity.dodur}, believing their faith will spare them from The#{space}
+		a(href="istaga.html#furda")= furda
 		| .

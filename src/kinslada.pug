@@ -1,9 +1,9 @@
 extends ../_.pug
 append head
-	title The Kin#{s}la#{__+d}a
+	title= kinslada
 block body
-	h1 The Kin#{s}la#{__+d}a
-	p The Kin#{s}la#{__+d}a is a genealogical record of The Do#{__}lita
+	h1= kinslada
+	p #{kinslada} is a genealogical record of #{dolita}
 	div#gen-1
 		h2 Generation 1
 		ul
@@ -16,7 +16,7 @@ block body
 			li #{deity.timur}, God of Time
 				ul: li Brother of #{deity.lidin}
 	div#gen-2a
-		h2 Generation 2A (The U#{__}rla)
+		h2 Generation 2A (#{jurla})
 		ul
 			li #{deity.kwelin}, Weaver of Fate
 				ul: li Daughter of #{deity.timur}
@@ -29,7 +29,7 @@ block body
 		ul
 			li #{deity.eldur}, God of Energy
 				ul: li Son of #{deity.lidin}
-			li #{deity.yodur}, God of Earth
+			li #{deity.jodur}, God of Earth
 				ul: li Son of #{deity.dodur}
 			li #{deity.ludin}, Goddess of Air
 				ul: li Daughter of #{deity.dodur}
@@ -40,10 +40,10 @@ block body
 	div#gen-3
 		h2 Generation 3
 		ul
-			li #{deity.fyelur}, God of Mountains
-				ul: li Son of #{deity.yodur}
+			li #{deity.fjelur}, God of Mountains
+				ul: li Son of #{deity.jodur}
 			li #{deity.kenur}, God of Canyons & Cliffs
-				ul: li Son of #{deity.yodur}
+				ul: li Son of #{deity.jodur}
 			li #{deity.patin}, Goddess of Plants
 				ul: li Daughter of #{deity.ludin}
 			li #{deity.dorin}, Goddess of Creatures
@@ -62,16 +62,16 @@ block body
 		h2 Generation 4
 		ul
 			li #{deity.felkilur}, God of Volcanoes
-				ul: li Son of #{deity.fyelur}
+				ul: li Son of #{deity.fjelur}
 			li #{deity.helin}, Goddess of Caves
-				ul: li Daughter of #{deity.fyelur}
+				ul: li Daughter of #{deity.fjelur}
 			li #{deity.golgemin}, Goddess of Alchemy
 				ul: li Daughter of #{deity.patin}
 			li #{deity.efkimin}, Goddess of Chemistry
 				ul: li Daughter of #{deity.patin}
 			li #{deity.skimzur}, God of Monsters
 				ul: li Son of #{deity.dorin}
-			li #{deity.dyur}, God of Animals
+			li #{deity.djur}, God of Animals
 				ul: li Son of #{deity.dorin}
 			li #{deity.opfin}, Goddess of Invention
 				ul: li Daughter of #{deity.galdin}
@@ -105,11 +105,11 @@ block body
 			li #{deity.upgodin}, Goddess of Discovery
 				ul: li Daughter of #{deity.efkimin}
 			li #{deity.dolin}, Goddess of Air Animals
-				ul: li Daughter of #{deity.dyur}
-			li #{deity.yordin}, Goddess of Land Animals
-				ul: li Daughter of #{deity.dyur}
+				ul: li Daughter of #{deity.djur}
+			li #{deity.jordin}, Goddess of Land Animals
+				ul: li Daughter of #{deity.djur}
 			li #{deity.sodur}, God of Sea Animals
-				ul: li Son of #{deity.dyur}
+				ul: li Son of #{deity.djur}
 			li #{deity.oditur}, God of Undead
 				ul: li Son of #{deity.skimzur}
 			li #{deity.pukin}, Goddess of Demons
@@ -142,25 +142,25 @@ block body
 		h2 Generation 6
 		ul: li These Deities govern specific areas; islands, landmarks, lakes, oceans, etc.
 	div#makra
-		h2: The Ma#{__}kra
+		h2 The #{makra}
 		ul
 			li: i Not Deities
 			li Favoured mortals of a deity, giving them a fraction of their power
-			li Each deity has their own system or reasoning for choosing a Ma#{__}kra
+			li Each deity has their own system or reasoning for choosing a #{makra}
 				ul
 					li Some like to follow certain bloodlines, while others do not
-					li Some deities turn their favoured mortal into a Ma#{__}kra when they reach adulthood, some when the mortal proves themself, and others do so in the mortal’s time of need
+					li Some deities turn their favoured mortal into a #{makra} when they reach adulthood, some when the mortal proves themself, and others do so in the mortal’s time of need
 					li Some enjoy the Chaos
 			li Orders of magnitude stronger than a Wizard, but much weaker than actual gods
-			li Each Deity has a Ma#{__}kra
+			li Each Deity has a #{makra}
 			li This status grants a mortal significant political power
-			li Most historical heroes are Ma#{__}kra
+			li Most historical heroes are #{makra}
 			li Those that aren't are even more legendary
 			li Being gifted power by multiple deities is extraordinarily rare, but not impossible
 			li There have only been several in history
 			li
-				| Once, and only once, there was a Ma#{__}kra of #{deity.dodur}, #{deity.lidin} and #{deity.timur}, prior to#{space}
-				a(href="istaga.html#valda"): i The Va#{__}lda
-			li This Ma#{__}kra was The First
-			li When a Ma#{__}kra dies, a new Ma#{__}kra is chosen
-			li A Ma#{__}kra can lose their status if they do something that angers their patron, without a reasonable explanation
+				| Once, and only once, there was a #{makra} of #{deity.dodur}, #{deity.lidin} and #{deity.timur}, prior to#{space}
+				a(href="istaga.html#valda"): i= valda
+			li This #{makra} was The First
+			li When a #{makra} dies, a new #{makra} is chosen
+			li A #{makra} can lose their status if they do something that angers their patron, without a reasonable explanation
