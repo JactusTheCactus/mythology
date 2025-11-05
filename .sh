@@ -33,7 +33,9 @@ if [[ -d "dist" ]]; then
 	rm -rf dist
 fi
 mkdir -p dist
-echo >> build.log
+if flag local; then
+	echo >> build.log
+fi
 for i in src/*.scss; do
 	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
 done
