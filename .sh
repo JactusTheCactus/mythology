@@ -23,15 +23,19 @@ mkdir -p dist
 {
 	log "dist/ Cleared:"
 	files "*"
+	rm -rf dist/*
 } || :
-rm -rf dist/*
+echo >> build.log
 for i in src/*.scss; do
 	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
 done
 log "Generated Stylesheet(s):"
 files "*.css"
+tsc
+log "Generated Script(s):"
+files "*.js"
 for i in src/*.pug; do
-	PUG="$i" node pug.js > "dist/$(basename "$i" .pug).html"
+	PUG="$i" node dist/pug.js > "dist/$(basename "$i" .pug).html"
 done
 log "Generated Page(s):"
 files "*.html"

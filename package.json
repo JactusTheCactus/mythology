@@ -19,6 +19,10 @@
 	"homepage": "https://github.com/JactusTheCactus/mythology#readme",
 	"dependencies": {
 		"pug": "^3.0.3",
-		"sass": "^1.93.3"
+		"sass": "^1.93.3",
+		"typescript": "^5.9.3"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.0"
 	}
 }

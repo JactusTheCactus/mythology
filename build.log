@@ -4,8 +4,12 @@ dist/ Cleared:
 	dist/istaga.html
 	dist/kinslada.html
 	dist/mena.html
+	dist/pug.js
+
 Generated Stylesheet(s):
 	dist/_.css
+Generated Script(s):
+	dist/pug.js
 Generated Page(s):
 	dist/index.html
 	dist/istaga.html
