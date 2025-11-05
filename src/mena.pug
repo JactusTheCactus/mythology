@@ -1,82 +1,84 @@
-The Me#{__}na
-	body
-		h1 The Me#{__}na
-		p The#{space} Me#{__}na is a record of the culture of The Fo#{__}kra; the people that worship The Do#{__}lita.
-		p No one worships the entirety of The Do#{__}lita, but rather the Deities important to their life.
-		h2#professions Professions
-		ul
-			li
-				| Cooks:
-				ul: li= deity.brainur
-			li
-				| Hunters:
-				ul
-					li= deity.dyur
-					li= deity.strefnur
-					li= deity.nokvur
-			li
-				| Inventors:
-				ul
-					li= deity.opfin
-					li= deity.grendur
-					li= deity.skopkin
-			li
-				| Scientists:
-				ul
-					li= deity.efkimin
-					li= deity.golgemin
-					li= deity.sirilur
-					li= deity.upgodin
-					li= deity.grendur
-			li
-				| Smiths:
-				ul
-					li= deity.kufnur
-					li= deity.nokvur
-			li
-				| Wizard:
-				ul
-					li Any mortal can become a Wizard, but some people are more gifted than others
-					li There are post-secondary schools, where one can become a skilled wizard
-					li
-						| Imbued by #{deity.galdin}, with a fraction of the power of another Deity; i.e:
-						ul
-							li Pyrokinetics; #{deity.bradur}
-							li Hydrokinetics; #{deity.vadin}
-							li Geokinetics; #{deity.yodur}
-							li Anemokinetics; #{deity.ludin}
-							li Electrokinetics; #{deity.eldur}
-			li
-				| Military:
-				ul
-					li
-						| All combatants worship #{deity.stridur}
-						ul
-							li
-								| Archer & Crossbowman:
-								ul: li= deity.nokvur
-							li
-								| Mage:
-								ul
-									li A Wizard fighting in the military; specializing in combat-related magic
-									li the deity of their chosen magic & #{deity.galdin}
-							li
-								| Rifleman:
-								ul
-									li= deity.nokvur
-									li= deity.bisur
-							li Swordsman:
-					li
-						| Medic:
-						ul
-							li= deity.skurdin
-							li= deity.mecur
-							li= deity.fridin
-							li
-								| Some medics are healing mages
-								ul: li= deity.lakbin
-		h2#doda The Do#{__}#{d}a
-		p
-			| The Do#{__}#{d}a are a doomsday cult that worships #{deity.dodur}, believing their faith will spare them from The#{space}
-			a(href="istaga.html#furda") Fu#{__}r#{d}a
-			| .
+extends ../_.pug
+append head
+	| The Me#{__}na
+block body
+	h1 The Me#{__}na
+	p The#{space} Me#{__}na is a record of the culture of The Fo#{__}kra; the people that worship The Do#{__}lita.
+	p No one worships the entirety of The Do#{__}lita, but rather the Deities important to their life.
+	h2#professions Professions
+	ul
+		li
+			| Cooks:
+			ul: li= deity.brainur
+		li
+			| Hunters:
+			ul
+				li= deity.dyur
+				li= deity.strefnur
+				li= deity.nokvur
+		li
+			| Inventors:
+			ul
+				li= deity.opfin
+				li= deity.grendur
+				li= deity.skopkin
+		li
+			| Scientists:
+			ul
+				li= deity.efkimin
+				li= deity.golgemin
+				li= deity.sirilur
+				li= deity.upgodin
+				li= deity.grendur
+		li
+			| Smiths:
+			ul
+				li= deity.kufnur
+				li= deity.nokvur
+		li
+			| Wizard:
+			ul
+				li Any mortal can become a Wizard, but some people are more gifted than others
+				li There are post-secondary schools, where one can become a skilled wizard
+				li
+					| Imbued by #{deity.galdin}, with a fraction of the power of another Deity; i.e:
+					ul
+						li Pyrokinetics; #{deity.bradur}
+						li Hydrokinetics; #{deity.vadin}
+						li Geokinetics; #{deity.yodur}
+						li Anemokinetics; #{deity.ludin}
+						li Electrokinetics; #{deity.eldur}
+		li
+			| Military:
+			ul
+				li
+					| All combatants worship #{deity.stridur}
+					ul
+						li
+							| Archer & Crossbowman:
+							ul: li= deity.nokvur
+						li
+							| Mage:
+							ul
+								li A Wizard fighting in the military; specializing in combat-related magic
+								li the deity of their chosen magic & #{deity.galdin}
+						li
+							| Rifleman:
+							ul
+								li= deity.nokvur
+								li= deity.bisur
+						li Swordsman:
+				li
+					| Medic:
+					ul
+						li= deity.skurdin
+						li= deity.mecur
+						li= deity.fridin
+						li
+							| Some medics are healing mages
+							ul: li= deity.lakbin
+	h2#doda The Do#{__}#{d}a
+	p
+		| The Do#{__}#{d}a are a doomsday cult that worships #{deity.dodur}, believing their faith will spare them from The#{space}
+		a(href="istaga.html#furda") Fu#{__}r#{d}a
+		| .
