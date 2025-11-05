@@ -10,7 +10,7 @@ if flag local; then
 	# sass="sass"
 	# tsc="tsc"
 else
-	npm ci
+	# npm ci
 	alias sass="npx sass"
 	alias tsc="npx tsc"
 fi
