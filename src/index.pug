@@ -3,29 +3,27 @@ append head
 	title= dolita
 block body
 	h1= dolita
-	table
-		tr
-			th: abbr(title="History"): a(href="istaga.html")= istaga
-			th: abbr(title="Genealogy"): a(href="kinslada.html")= kinslada
-			th: abbr(title="Culture"): a(href="mena.html")= mena
-		tr
-			td: a(href="istaga.html#fristila")= fristila
-			td: a(href="kinslada.html#gen-1") Generation 1
-			td: a(href="mena.html#professions") Professions
-		tr
-			td: a(href="istaga.html#valda")= valda
-			td: a(href="kinslada.html#gen-2a")= jurla
-			td: a(href="mena.html#doda")= doda
-		tr
-			td: a(href="istaga.html#midva")= midva
-			td: a(href="kinslada.html#gen-2b") Generation 2B
-			td(rowspan="6")
-		tr
-			td: a(href="istaga.html#furda")= furda
-			td: a(href="kinslada.html#gen-3") Generation 3
-		tr
-			td(rowspan="4")
-			td: a(href="kinslada.html#gen-4") Generation 4
-		tr: td: a(href="kinslada.html#gen-5") Generation 5
-		tr: td: a(href="kinslada.html#gen-6") Generation 6
-		tr: td: a(href="kinslada.html#makra")= the.makra
+	ul.root.noBullet
+		li
+			+abbrA("History",istaga,"istaga.html")
+			ol
+				li: a(href="istaga.html#fristila")= fristila
+				li: a(href="istaga.html#valda")= valda
+				li: a(href="istaga.html#midva")= midva
+				li: a(href="istaga.html#furda")= furda
+		li
+			+abbrA("Genealogy",kinslada,"kinslada.html")
+			ol
+				li: a(href="kinslada.html#gen-1") Generation 1
+				li: +abbrA("Generation 2A",jurla,"kinslada.html#gen-2a")
+				li: a(href="kinslada.html#gen-2b") Generation 2B
+				li: a(href="kinslada.html#gen-3") Generation 3
+				li: a(href="kinslada.html#gen-4") Generation 4
+				li: a(href="kinslada.html#gen-5") Generation 5
+				li: a(href="kinslada.html#gen-6") Generation 6
+				li: a(href="kinslada.html#makra")= the.makra
+		li
+			+abbrA("Culture",mena,"mena.html")
+			ol
+				li: a(href="mena.html#professions") Professions
+				li: a(href="mena.html#doda")= doda

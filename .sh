@@ -19,12 +19,12 @@ files() {
 	\;)"
 }
 rm -f build.log
-mkdir -p dist
-{
+if [[ -d "dist" ]]; then
 	log "dist/ Cleared:"
 	files "*"
-	rm -rf dist/*
-} || :
+	rm -rf dist
+fi
+mkdir -p dist
 echo >> build.log
 for i in src/*.scss; do
 	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map

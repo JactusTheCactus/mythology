@@ -1,20 +1,28 @@
+mixin abbrA(displayText="Home",hoverText=dolita,link="index.html")
+	abbr(title=hoverText)
+		a(href=link)
+			= displayText
+mixin pipe
+	= space
+	| |
+	= space
 doctype html
 html(lang="en-CA")
-	head
-		block head
+	block head
+		head
 			meta(charset="UTF-8")
 			link(
 				rel="stylesheet"
 				href="_.css"
 			)
 	body
-		block body
-		block foot
+		block nav
 			nav
-				a(href="index.html"): abbr(title=dolita) Home
-				| #{space}|#{space}
-				a(href="istaga.html"): abbr(title=istaga) History
-				| #{space}|#{space}
-				a(href="kinslada.html"): abbr(title=kinslada) Genealogy
-				| #{space}|#{space}
-				a(href="mena.html"): abbr(title=mena) Culture
+				+abbrA
+				+pipe
+				+abbrA("History",istaga,"istaga.html")
+				+pipe
+				+abbrA("Genealogy",kinslada,"kinslada.html")
+				+pipe
+				+abbrA("Culture",mena,"mena.html")
+		block body

@@ -4,8 +4,8 @@ append head
 block body
 	h1= kinslada
 	p #{kinslada} is a genealogical record of #{dolita}
-	div#gen-1
-		h2 Generation 1
+	details#gen-1
+		summary Generation 1
 		ul
 			li #{deity.dodur}, God of Death
 				ul: li Ex-Husband of #{deity.lidin}
@@ -15,8 +15,8 @@ block body
 					li Sister of #{deity.timur}
 			li #{deity.timur}, God of Time
 				ul: li Brother of #{deity.lidin}
-	div#gen-2a
-		h2 Generation 2A (#{jurla})
+	details#gen-2a
+		summary Generation 2A (#{jurla})
 		ul
 			li #{deity.kwelin}, Weaver of Fate
 				ul: li Daughter of #{deity.timur}
@@ -24,8 +24,8 @@ block body
 				ul: li Daughter of #{deity.timur}
 			li #{deity.netur}, Trimmer of Fate
 				ul: li Son of #{deity.timur}
-	div#gen-2b
-		h2 Generation 2B
+	details#gen-2b
+		summary Generation 2B
 		ul
 			li #{deity.eldur}, God of Energy
 				ul: li Son of #{deity.lidin}
@@ -37,8 +37,8 @@ block body
 				ul: li Son of #{deity.lidin}
 			li #{deity.vadin}, Goddess of Water
 				ul: li Daughter of #{deity.lidin}
-	div#gen-3
-		h2 Generation 3
+	details#gen-3
+		summary Generation 3
 		ul
 			li #{deity.fjelur}, God of Mountains
 				ul: li Son of #{deity.jodur}
@@ -58,8 +58,8 @@ block body
 				ul: li Daughter of #{deity.vadin}
 			li #{deity.furlin}, Goddess of Travel
 				ul: li Daughter of #{deity.vadin}
-	div#gen-4
-		h2 Generation 4
+	details#gen-4
+		summary Generation 4
 		ul
 			li #{deity.felkilur}, God of Volcanoes
 				ul: li Son of #{deity.fjelur}
@@ -85,8 +85,8 @@ block body
 				ul: li Daughter of #{deity.fridin}
 			li #{deity.kogur}, God of Art
 				ul: li Son of #{deity.fridin}
-	div#gen-5
-		h2 Generation 5
+	details#gen-5
+		summary Generation 5
 		ul
 			li #{deity.ravin}, Goddess of Lava
 				ul: li Daughter of #{deity.felkilur}
@@ -138,11 +138,11 @@ block body
 				ul: li Daughter of #{deity.kogur}
 			li #{deity.molin}, Goddess of Paint
 				ul: li Daughter of #{deity.kogur}
-	div#gen-6
-		h2 Generation 6
+	details#gen-6
+		summary Generation 6
 		ul: li These Deities govern specific areas; islands, landmarks, lakes, oceans, etc.
-	div#makra
-		h2 The #{makra}
+	details#makra
+		summary The #{makra}
 		ul
 			li: i Not Deities
 			li Favoured mortals of a deity, giving them a fraction of their power

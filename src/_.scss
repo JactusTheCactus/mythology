@@ -14,18 +14,18 @@ body {
 	h6 {
 		@extend %h;
 	}
+	a {
+		text-decoration: none;
+		&:hover {
+			background-color: #eee;
+			text-decoration: underline;
+		}
+	}
 	table {
 		width: 100%;
 		> * {
 			text-align: center;
 			padding: calc(1em / 2);
-		}
-		a {
-			text-decoration: none;
-			&:hover {
-				background-color: #eee;
-				text-decoration: underline;
-			}
 		}
 		th {
 			@extend %h;
@@ -37,6 +37,29 @@ body {
 			border-style: solid;
 			border-collapse: collapse;
 			border-color: #000;
+		}
+	}
+	details {
+		summary {
+			@extend %h;
+			font-weight: bold;
+		}
+	}
+	ul,
+	ol {
+		&.noBullet {
+			> li {
+				list-style: none;
+			}
+		}
+		&.root {
+			> li {
+				font-size: 1.5em;
+				ul,
+				ol {
+					font-size: calc(1em / 1.5);
+				}
+			}
 		}
 	}
 }
