@@ -77,14 +77,14 @@ _.deity = {
 	molin: `M${_.o + _._}lin`
 }
 _.makra = `Ma${_._}kra`
+_.the = {
+	makra: "The " + _.makra
+}
 _.hadru = `Ha${_._ + _.dh}r${_.u}`
 _.halrit = `Ha${_._}lri${_.th}`
 _.dodin = `Do${_._ + _.dh + _.i}n`
 _.lidin = `Li${_._ + _.dh + _.i}n`
 _.dolidin = `Do${_._}li${_.dh + _.i}n`
-_.the = {
-	makra: _.makra
-}
 _.dolita = `The Do${_._}lita`
 _.jurla = `The Ju${_._}rla`
 _.doda = `The Do${_._ + _.dh}a`
