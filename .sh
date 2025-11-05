@@ -41,7 +41,7 @@ for i in src/*.scss; do
 done
 log "Generated Stylesheet(s):"
 files "*.css"
-tsc
+npx tsc
 log "Generated Script(s):"
 files "*.js"
 for i in src/*.pug; do
