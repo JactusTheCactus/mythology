@@ -6,12 +6,13 @@ flag() {
 	done
 }
 if flag local; then
-	sass="sass"
-	tsc="tsc"
+	:
+	# sass="sass"
+	# tsc="tsc"
 else
 	npm ci
-	sass="npx sass"
-	tsc="npx tsc"
+	alias sass="npx sass"
+	alias tsc="npx tsc"
 fi
 log() {
 	echo -e "$1" >> build.log
@@ -32,11 +33,11 @@ fi
 mkdir -p dist
 echo >> build.log
 for i in src/*.scss; do
-	$sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
+	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
 done
 log "Generated Stylesheet(s):"
 files "*.css"
-$tsc
+tsc
 log "Generated Script(s):"
 files "*.js"
 for i in src/*.pug; do
