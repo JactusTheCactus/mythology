@@ -37,17 +37,17 @@ body table td {
 body details summary {
   font-weight: bold;
 }
-body ul.noBullet > li,
-body ol.noBullet > li {
+body ul#root > li,
+body ol#root > li {
   list-style: none;
 }
-body ul.root > li,
-body ol.root > li {
+body ul#root > li,
+body ol#root > li {
   font-size: 1.5em;
 }
-body ul.root > li ul,
-body ul.root > li ol,
-body ol.root > li ul,
-body ol.root > li ol {
+body ul#root > li ul,
+body ul#root > li ol,
+body ol#root > li ul,
+body ol#root > li ol {
   font-size: 0.6666666667em;
 }

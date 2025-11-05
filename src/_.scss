@@ -47,12 +47,10 @@ body {
 	}
 	ul,
 	ol {
-		&.noBullet {
+		&#root {
 			> li {
 				list-style: none;
 			}
-		}
-		&.root {
 			> li {
 				font-size: 1.5em;
 				ul,
