@@ -6,14 +6,12 @@ flag() {
 	done
 }
 if flag local; then
-	:
-	# sass="sass"
-	# tsc="tsc"
+	NPX=""
 else
-	# npm ci
-	alias sass="npx sass"
-	alias tsc="npx tsc"
+	NPX="npx"
 fi
+alias sass="$NPX sass"
+alias tsc="$NPX tsc"
 log() {
 	if flag local; then
 		echo -e "$1" >> build.log
