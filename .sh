@@ -12,7 +12,9 @@ else
 fi
 rm -rf dist/*
 mkdir -p dist
-npx sass src:dist --no-source-map
+for i in src/*.scss; do
+	sass "$i:dist/$(basename "$i" .scss).css" --no-source-map
+done
 for PUG in src/*.pug; do
 	node -e "console.log(require('pug').renderFile('"$PUG"').normalize('NFD'))" > "dist/$(basename "$PUG" .pug).html"
 done

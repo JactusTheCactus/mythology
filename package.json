@@ -19,6 +19,6 @@
 	"homepage": "https://github.com/JactusTheCactus/mythology#readme",
 	"dependencies": {
 		"pug": "^3.0.3",
-		"sass": "^1.93.0"
+		"sass": "^1.93.3"
 	}
 }
